@@ -1,0 +1,17 @@
+﻿using KodlamaioSimulation.Entities.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KodlamaioSimulation.Business.Abstract
+{
+    public interface ICategoryService
+    {
+        void Add(Category category);
+        void Remove(Category category);
+        void Update(Category category);
+        List<Category> GetAll();
+    }
+}
